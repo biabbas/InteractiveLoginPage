@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $address = $_POST["address"];
     $phone = $_POST["phone"];
 
-    // connect
+
     $conn = new mysqli("localhost", "mdabbas", "sql@234", "taskdb");
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
