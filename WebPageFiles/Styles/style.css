@@ -80,8 +80,7 @@ input{
   border-radius: 4px;}
 input[type="submit"]{
   display: block;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+
 	width:100%;
   max-width:100% !important;
   height:3em;
@@ -115,13 +114,8 @@ input:focus::-webkit-input-placeholder{
   opacity:0;}
 input[type="text"]:focus,input[type="text"]:active,[type="password"]:focus,input[type="password"]:active{
   outline:0;
- 	-webkit-appearance: none;
-	-moz-appearance: none; 
+
   border-image:none;
 	-moz-box-shadow: 0 0 20px rgba(129,183,26,0.5);
 	box-shadow: 0 0 20px rgba(129,183,26,0.5);
-	-webkit-animation: shadow-pulse 3s infinite ease-in-out;}
-@-webkit-keyframes shadow-pulse {
-  0% {-webkit-box-shadow: 0 0 20px rgba(129,183,26,0);}
-  50% {-webkit-box-shadow: 0 0 20px rgba(129,183,26,1);}
-  100% {-webkit-box-shadow: 0 0 20px rgba(129,183,26,0);}}
+}
