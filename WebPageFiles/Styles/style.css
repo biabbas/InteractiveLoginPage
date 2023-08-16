@@ -29,7 +29,6 @@ section{
 	-webkit-transform:translateY(-50%);
 	-ms-transform:translateY(-50%);
 	transform:translateY(-50%);
-  background-image:url(http://www.matthewlewicki.com/codefest/images/spotify-logo-small.png);
   background-position:top center;
   background-repeat:no-repeat;
   background-size:100px;}
