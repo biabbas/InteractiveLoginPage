@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row["password"])) {
             echo "Login successful!";
+            header("Location: Welcome.html");
         } else {
             echo "Invalid password";
         }
